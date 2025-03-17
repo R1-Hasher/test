@@ -8,6 +8,7 @@ mkdir caches
 cd caches
 mkdir fabric-loom
 ```
+# 新建Shell
 ```
 mkdir archive
 cd archive
