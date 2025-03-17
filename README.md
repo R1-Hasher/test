@@ -1,7 +1,7 @@
 ```
 git init
 git pull https://github.com/suiq-hash/backup
-cd '~/'
+cd ~
 mkdir .gradle
 cd .gradle
 mkdir caches
