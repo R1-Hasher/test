@@ -1,14 +1,20 @@
 ```
 git init
 git pull https://github.com/suiq-hash/backup
-mkdir cc
-cd cc
+mkdir archive
+cd archive
 git init
 git pull https://github.com/r1-hasher/cc
 cd ..
-cp cc/cc.zip cc.zip
 unzip backup.zip
-unzip cc.zip
-sudo rm -rf cc cc.zip backup.zip
-mv configuration-cache alien
+cd archive
+unzip archive.zip
+mv configuration-cache '/workspace/'
+cd ..
+sudo rm -rf cc archive
+cd configuration-cahce
+mv 1.20.4 '~/.gradle/caches/fabric-loom'
+mv minecraftMaven '~/.gradle/caches/fabric-loom'
+mv version_manifest.json '~/.gradle/caches/fabric-loom'
+cd ..
 cd alien
