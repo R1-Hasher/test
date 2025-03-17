@@ -1,6 +1,13 @@
 ```
 git init
 git pull https://github.com/suiq-hash/backup
+cd '~/'
+mkdir .gradle
+cd .gradle
+mkdir caches
+cd caches
+mkdir fabric-loom
+```
 mkdir archive
 cd archive
 git init
