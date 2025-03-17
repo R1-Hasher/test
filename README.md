@@ -8,6 +8,7 @@ mkdir caches
 cd caches
 mkdir fabric-loom
 ```
+```
 mkdir archive
 cd archive
 git init
