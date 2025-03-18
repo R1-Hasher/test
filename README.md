@@ -1,7 +1,6 @@
 ```
 git init
-git pull https://github.com/suiq-hash/backup
-unzip backup.zip && sudo rm -rf backup.zip
+git pull https://github.com/im4dcat/alien
 cd ~
 mkdir .gradle
 cd .gradle
