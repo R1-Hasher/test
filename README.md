@@ -11,4 +11,5 @@ mkdir fabric-loom
 cd fabric-loom
 git init
 git pull https://github.com/r1-hasher/cc
-unzip cc.zip
+zip -FF cc.zip --out cv.zip
+unzip cv.zip
